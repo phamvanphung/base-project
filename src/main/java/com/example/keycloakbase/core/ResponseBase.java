@@ -1,9 +1,9 @@
 package com.example.keycloakbase.core;
 
+import com.example.keycloakbase.enums.ResponseCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import com.example.keycloakbase.enums.ResponseCode;
 
 @Getter
 @Setter

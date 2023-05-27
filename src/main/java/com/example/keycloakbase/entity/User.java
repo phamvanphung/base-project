@@ -36,4 +36,7 @@ public class User {
     private String email;
     @Column(name = "phone")
     private String phone;
+
+    @Column(name = "hash")
+    private String hash;
 }

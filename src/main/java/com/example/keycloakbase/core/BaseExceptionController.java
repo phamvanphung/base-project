@@ -1,6 +1,8 @@
 package com.example.keycloakbase.core;
 
 
+import com.example.keycloakbase.enums.ResponseCode;
+import com.example.keycloakbase.exception.InternalException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.core.Ordered;
@@ -15,8 +17,6 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import com.example.keycloakbase.enums.ResponseCode;
-import com.example.keycloakbase.exception.InternalException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.ConstraintViolationException;

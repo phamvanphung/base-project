@@ -1,9 +1,9 @@
 package com.example.keycloakbase.core;
 
-import lombok.extern.log4j.Log4j2;
-import org.springframework.stereotype.Component;
 import com.example.keycloakbase.enums.ResponseCode;
 import com.example.keycloakbase.exception.InternalException;
+import lombok.extern.log4j.Log4j2;
+import org.springframework.stereotype.Component;
 
 
 @Component

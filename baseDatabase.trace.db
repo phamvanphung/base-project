@@ -1,0 +1,3 @@
+2023-05-27 23:09:24 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "user""user" not found; SQL statement:
+SELECT * FROM "user""user" [42102-214]
